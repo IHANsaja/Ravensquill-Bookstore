@@ -38,13 +38,23 @@
     cd backend
     ```
 
-2. Install dependencies:
+2. Create a .env file inside the backend directory and add the following:
+
+   ```bash
+   MONGODB_URI='mongodb+srv:example.mongodb.net'
+   JWT_SECRET='example'
+   NODE_ENV='development'
+   AUTH_GOOGLE_ID=example
+   AUTH_GOOGLE_SECRET=example
+   ```
+
+3. Install dependencies:
 
     ```bash
     npm install
     ```
 
-3. Start the server:
+4. Start the server:
 
     ```bash
     npm run server
@@ -60,13 +70,19 @@
     cd Front
     ```
 
-2. Install dependencies:
+2. Create a .env file inside the Front directory and add the following:
+
+   ```bash
+   VITE_BACKEND_URL=http://localhost:4000
+   ```
+
+3. Install dependencies:
 
     ```bash
     npm install
     ```
 
-3. Launch the development server:
+4. Launch the development server:
 
     ```bash
     npm run dev

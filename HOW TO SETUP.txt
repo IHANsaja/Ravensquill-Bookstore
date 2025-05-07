@@ -1,0 +1,42 @@
+PROJECT SETUP INSTRUCTIONS
+-------------------------------------------------------------------------------------------
+
+DOWNLOAD OPTIONS
+• Git Clone:
+git clone https://github.com/IHANsaja/Ravensquill-Bookstore.git
+
+• ZIP Download:
+Go to the repository URL in your browser
+Click “Code”
+Choose “Download ZIP”
+
+--------------------------------------------------------------------------------------------
+
+BACKEND INSTALLATION
+
+Change into backend directory:
+cd backend
+
+Install dependencies:
+npm install
+
+Start server:
+npm run server
+
+--------------------------------------------------------------------------------------------
+
+FRONTEND INSTALLATION
+
+Change into Front directory:
+cd Front
+
+Install dependencies:
+npm install
+
+Launch development server:
+npm run dev
+
+-------------------------------------------------------------------------------------------
+
+USING THE APP
+Open a browser and go to http://localhost:5173/ to access the running application.
